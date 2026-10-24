@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 125" width="100%" height="auto">
+  <defs>
+    <style>
+      .card-bg { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; }
+      .title-text { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: #656d76; letter-spacing: 0.5px; }
+      .legend-text { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: #656d76; }
+      .axis-label { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: #8c959f; }
+      .count-label { font: 600 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: #1f2328; }
+      .empty-text { font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: #8c959f; }
+      .baseline { stroke: #eaecef; stroke-width: 1; }
+      @media (prefers-color-scheme: dark) {
+        .card-bg { fill: #0d1117; stroke: #30363d; }
+        .title-text { fill: #8b949e; }
+        .legend-text { fill: #8b949e; }
+        .axis-label { fill: #6e7681; }
+        .count-label { fill: #f0f6fc; }
+        .empty-text { fill: #6e7681; }
+        .baseline { stroke: #21262d; }
+      }
+    </style>
+  </defs>
+
+  <rect width="820" height="125" rx="8" class="card-bg"/>
+
+  <text x="24" y="24" class="title-text">5-DAY TRAFFIC TREND</text>
+
+  <g>
+    <circle cx="710" cy="20" r="4" fill="#0969da"/>
+    <text x="720" y="24" class="legend-text">Views</text>
+    <circle cx="765" cy="20" r="4" fill="#8250df"/>
+    <text x="775" y="24" class="legend-text">Clones</text>
+  </g>
+
+  <line x1="24" y1="88" x2="796" y2="88" class="baseline"/>
+
+  <g>
+    <rect x="104.0" y="86.0" width="16.0" height="0.0" rx="2" fill="#0969da" opacity="0.9"><title>2026-10-18: 0 views</title></rect><rect x="124.0" y="80.6" width="16.0" height="5.4" rx="2" fill="#8250df" opacity="0.9"><title>2026-10-18: 2 clones</title></rect><text x="132.0" y="77.6" class="count-label" text-anchor="middle">2</text><text x="122.0" y="106" class="axis-label" text-anchor="middle">Oct 18</text><rect x="248.0" y="86.0" width="16.0" height="0.0" rx="2" fill="#0969da" opacity="0.9"><title>2026-10-19: 0 views</title></rect><rect x="268.0" y="80.6" width="16.0" height="5.4" rx="2" fill="#8250df" opacity="0.9"><title>2026-10-19: 2 clones</title></rect><text x="276.0" y="77.6" class="count-label" text-anchor="middle">2</text><text x="266.0" y="106" class="axis-label" text-anchor="middle">Oct 19</text><rect x="392.0" y="86.0" width="16.0" height="0.0" rx="2" fill="#0969da" opacity="0.9"><title>2026-10-20: 0 views</title></rect><rect x="412.0" y="64.4" width="16.0" height="21.6" rx="2" fill="#8250df" opacity="0.9"><title>2026-10-20: 8 clones</title></rect><text x="420.0" y="61.4" class="count-label" text-anchor="middle">8</text><text x="410.0" y="106" class="axis-label" text-anchor="middle">Oct 20</text><rect x="536.0" y="86.0" width="16.0" height="0.0" rx="2" fill="#0969da" opacity="0.9"><title>2026-10-21: 0 views</title></rect><rect x="556.0" y="86.0" width="16.0" height="0.0" rx="2" fill="#8250df" opacity="0.9"><title>2026-10-21: 0 clones</title></rect><text x="554.0" y="106" class="axis-label" text-anchor="middle">Oct 21</text><rect x="680.0" y="86.0" width="16.0" height="0.0" rx="2" fill="#0969da" opacity="0.9"><title>2026-10-22: 0 views</title></rect><rect x="700.0" y="50.8" width="16.0" height="35.2" rx="2" fill="#8250df" opacity="0.9"><title>2026-10-22: 13 clones</title></rect><text x="708.0" y="48.0" class="count-label" text-anchor="middle">13</text><text x="698.0" y="106" class="axis-label" text-anchor="middle">Oct 22</text>
+  </g>
+</svg>

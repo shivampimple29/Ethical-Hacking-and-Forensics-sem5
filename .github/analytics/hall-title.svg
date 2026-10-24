@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 120" width="100%" height="auto">
+  <defs>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff2a8"/>
+      <stop offset="25%" stop-color="#ffd700"/>
+      <stop offset="60%" stop-color="#d48806"/>
+      <stop offset="90%" stop-color="#8c5803"/>
+      <stop offset="100%" stop-color="#ffd700"/>
+    </linearGradient>
+    <linearGradient id="gold-bright" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff8d1"/>
+      <stop offset="45%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#b87304"/>
+    </linearGradient>
+    <linearGradient id="gold-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d48806"/>
+      <stop offset="100%" stop-color="#3d2703"/>
+    </linearGradient>
+    <filter id="gold-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Detailed Majestic Wing (Left Side) -->
+    <g id="majestic-wing">
+      <path d="M 0 52 C -18 38, -32 20, -36 -2 C -42 -26, -30 -44, -18 -54 C -22 -44, -22 -28, -14 -12 C -8 3, 2 18, 12 32 Z" fill="url(#gold-bright)" filter="url(#gold-shadow)"/>
+      <path d="M -18 -54 C -30 -42, -42 -24, -36 -2 C -32 20, -18 38, 0 52 C -12 38, -24 20, -28 0 C -32 -20, -22 -38, -18 -54 Z" fill="url(#gold-dark)" opacity="0.4"/>
+      <path d="M 5 56 C -20 48, -45 32, -62 8 C -74 -10, -78 -28, -74 -36 C -75 -25, -68 -8, -52 10 C -38 26, -18 42, 10 50 Z" fill="url(#gold-grad)" filter="url(#gold-shadow)"/>
+      <path d="M 12 60 C -18 56, -55 42, -80 20 C -96 2, -102 -14, -100 -22 C -99 -12, -90 6, -72 24 C -54 40, -22 52, 14 56 Z" fill="url(#gold-bright)" filter="url(#gold-shadow)"/>
+      <path d="M 16 66 C -16 64, -60 52, -90 32 C -112 16, -120 -2, -118 -10 C -116 0, -104 18, -84 34 C -62 48, -20 58, 16 62 Z" fill="url(#gold-grad)" filter="url(#gold-shadow)"/>
+      <path d="M 18 72 C -14 70, -56 60, -84 44 C -106 30, -114 14, -112 6 C -110 14, -98 30, -78 44 C -56 56, -16 66, 18 68 Z" fill="url(#gold-bright)" filter="url(#gold-shadow)"/>
+      <path d="M 18 78 C -12 76, -48 68, -74 54 C -94 42, -102 28, -100 20 C -98 26, -88 40, -68 52 C -48 62, -12 72, 18 74 Z" fill="url(#gold-grad)" filter="url(#gold-shadow)"/>
+      <path d="M 16 84 C -8 82, -38 74, -60 62 C -78 52, -84 40, -82 34 C -80 38, -72 50, -54 60 C -36 68, -8 78, 16 80 Z" fill="url(#gold-bright)" filter="url(#gold-shadow)"/>
+      <path d="M 12 90 C -6 88, -28 80, -44 70 C -58 60, -62 50, -60 46 C -58 50, -52 58, -38 66 C -24 74, -4 82, 12 85 Z" fill="url(#gold-grad)" filter="url(#gold-shadow)"/>
+      <path d="M 18 50 C 6 52, -2 60, 0 70 C 2 78, 12 84, 20 86 C 14 80, 10 74, 12 66 C 14 58, 20 54, 24 50 Z" fill="url(#gold-dark)"/>
+      <circle cx="8" cy="65" r="16" fill="url(#gold-bright)" opacity="0.6"/>
+    </g>
+    
+    <style>
+      .royal-title {
+        font: 800 24px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+        fill: url(#gold-bright);
+        letter-spacing: 4px;
+        filter: drop-shadow(0px 2px 8px rgba(212, 136, 6, 0.5));
+      }
+      .royal-sub {
+        font: 600 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+        fill: #8b949e;
+        letter-spacing: 3px;
+      }
+    </style>
+  </defs>
+
+  <!-- Left Wing -->
+  <g transform="translate(195, 45) scale(0.85)">
+    <use href="#majestic-wing"/>
+  </g>
+
+  <!-- Right Wing (Mirrored) -->
+  <g transform="translate(625, 45) scale(-0.85, 0.85)">
+    <use href="#majestic-wing"/>
+  </g>
+
+  <!-- Center Crest & Royal Title -->
+  <g>
+    <path d="M 410 18 L 413 25 L 420 27 L 414 32 L 416 39 L 410 35 L 404 39 L 406 32 L 400 27 L 407 25 Z" fill="url(#gold-bright)"/>
+    <text x="410" y="66" text-anchor="middle" class="royal-title">HALL OF APPRECIATION</text>
+    <line x1="270" y1="80" x2="550" y2="80" stroke="url(#gold-grad)" stroke-width="1.5" stroke-linecap="round"/>
+    <polygon points="410,76 415,80 410,84 405,80" fill="url(#gold-bright)"/>
+    <circle cx="270" cy="80" r="2.5" fill="url(#gold-bright)"/>
+    <circle cx="550" cy="80" r="2.5" fill="url(#gold-bright)"/>
+    <text x="410" y="98" text-anchor="middle" class="royal-sub">HONORARY RECOGNITION WALL</text>
+  </g>
+</svg>

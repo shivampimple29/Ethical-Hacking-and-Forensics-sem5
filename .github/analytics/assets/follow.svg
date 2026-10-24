@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205 36" width="205" height="36">
+  <defs>
+    <style>
+      .btn-bg { fill: #161b22; stroke: #30363d; stroke-width: 1; transition: all 0.2s ease; }
+      .btn-bg:hover { stroke: #bc8cff; fill: #1c2128; }
+      .btn-text { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: #f0f6fc; }
+      .user-icon { stroke: #bc8cff; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+    </style>
+  </defs>
+  <rect width="203" height="34" x="1" y="1" rx="8" class="btn-bg"/>
+  <g transform="translate(16, 9)">
+    <path d="M13 16v-1.5a3 3 0 0 0-3-3H4a3 3 0 0 0-3 3V16" class="user-icon"/>
+    <circle cx="7" cy="5" r="3" class="user-icon"/>
+    <line x1="16" y1="7" x2="16" y2="13" class="user-icon"/>
+    <line x1="13" y1="10" x2="19" y2="10" class="user-icon"/>
+  </g>
+  <text x="44" y="22" class="btn-text">Follow @shivampimple29</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 54" width="100%" height="auto">
+  <defs>
+    <linearGradient id="gold-tracer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fff8d1"/>
+      <stop offset="30%" stop-color="#ffd700"/>
+      <stop offset="70%" stop-color="#ffb300"/>
+      <stop offset="100%" stop-color="#fff8d1"/>
+    </linearGradient>
+    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .banner-bg { fill: #0d1117; stroke: #2a2010; stroke-width: 1.5; }
+      .tracer-line {
+        stroke: url(#gold-tracer);
+        stroke-width: 2.5;
+        stroke-linecap: round;
+        filter: url(#gold-glow);
+        fill: none;
+        stroke-dasharray: 160 701;
+        animation: circuit 3.2s linear infinite;
+      }
+      @keyframes circuit {
+        0% { stroke-dashoffset: 160; }
+        100% { stroke-dashoffset: -701; }
+      }
+      .banner-text {
+        font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+        fill: #e6edf3;
+        letter-spacing: 0.3px;
+      }
+      .pipe-sep {
+        font-weight: 700;
+        fill: #ffd700;
+      }
+      @media (prefers-color-scheme: light) {
+        .banner-bg { fill: #fcfaf6; stroke: #e0d0b0; }
+        .banner-text { fill: #1f2328; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Card -->
+  <rect x="1" y="1" width="818" height="52" rx="8" class="banner-bg"/>
+
+  <!-- Left Circulation (Counter-Clockwise from top-center 410,1 to bottom-center 410,53) -->
+  <path d="M 410 1 L 9 1 A 8 8 0 0 0 1 9 L 1 45 A 8 8 0 0 0 9 53 L 410 53" class="tracer-line"/>
+
+  <!-- Right Circulation (Clockwise from top-center 410,1 to bottom-center 410,53) -->
+  <path d="M 410 1 L 811 1 A 8 8 0 0 1 819 9 L 819 45 A 8 8 0 0 1 811 53 L 410 53" class="tracer-line"/>
+
+  <!-- Central Clean Announcement Text -->
+  <text x="410" y="31" text-anchor="middle" class="banner-text">
+    Star or fork this repository to join the wall of appreciation <tspan class="pipe-sep"> | </tspan> Updates every day at 12:00 AM IST
+  </text>
+</svg>

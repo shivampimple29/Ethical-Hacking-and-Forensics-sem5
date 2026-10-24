@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 96" width="100%" height="auto">
+  <defs>
+    <style>
+      .card-bg { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; }
+      .divider { stroke: #eaecef; stroke-width: 1; }
+      .metric-val { font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: #1f2328; }
+      .metric-val-dim { font: 600 20px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: #8c959f; }
+      .metric-label { font: 600 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: #656d76; letter-spacing: 0.5px; }
+      .metric-sub { font: 400 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: #8c959f; }
+      @media (prefers-color-scheme: dark) {
+        .card-bg { fill: #0d1117; stroke: #30363d; }
+        .divider { stroke: #21262d; }
+        .metric-val { fill: #f0f6fc; }
+        .metric-val-dim { fill: #6e7681; }
+        .metric-label { fill: #8b949e; }
+        .metric-sub { fill: #6e7681; }
+      }
+    </style>
+  </defs>
+
+  <rect width="820" height="96" rx="8" class="card-bg"/>
+  <line x1="164.0" y1="18" x2="164.0" y2="78" class="divider"/><line x1="328.0" y1="18" x2="328.0" y2="78" class="divider"/><line x1="492.0" y1="18" x2="492.0" y2="78" class="divider"/><line x1="656.0" y1="18" x2="656.0" y2="78" class="divider"/>
+      <g>
+      <text x="82.0" y="28" text-anchor="middle" class="metric-label">TOTAL CLONES</text>
+      <text x="82.0" y="59" text-anchor="middle" class="metric-val">43</text>
+      <text x="82.0" y="79" text-anchor="middle" class="metric-sub">Recorded lifetime</text>
+    </g>    <g>
+      <text x="246.0" y="28" text-anchor="middle" class="metric-label">UNIQUE CLONERS</text>
+      <text x="246.0" y="59" text-anchor="middle" class="metric-val">30</text>
+      <text x="246.0" y="79" text-anchor="middle" class="metric-sub">Recorded lifetime</text>
+    </g>    <g>
+      <text x="410.0" y="28" text-anchor="middle" class="metric-label">TOTAL FORKS</text>
+      <text x="410.0" y="59" text-anchor="middle" class="metric-val">2</text>
+      <text x="410.0" y="79" text-anchor="middle" class="metric-sub">Public community</text>
+    </g>    <g>
+      <text x="574.0" y="28" text-anchor="middle" class="metric-label">TOTAL VIEWS</text>
+      <text x="574.0" y="59" text-anchor="middle" class="metric-val">17</text>
+      <text x="574.0" y="79" text-anchor="middle" class="metric-sub">Recorded lifetime</text>
+    </g>    <g>
+      <text x="738.0" y="28" text-anchor="middle" class="metric-label">UNIQUE VISITORS</text>
+      <text x="738.0" y="59" text-anchor="middle" class="metric-val">4</text>
+      <text x="738.0" y="79" text-anchor="middle" class="metric-sub">Recorded lifetime</text>
+    </g>
+</svg>

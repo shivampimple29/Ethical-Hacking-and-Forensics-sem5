@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" width="240" height="280">
+  <defs>
+    <!-- Gold Metallic Gradients -->
+    <linearGradient id="frame-gold-main" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8d1"/>
+      <stop offset="20%" stop-color="#ffd700"/>
+      <stop offset="50%" stop-color="#e09900"/>
+      <stop offset="80%" stop-color="#995e00"/>
+      <stop offset="100%" stop-color="#ffd700"/>
+    </linearGradient>
+    <linearGradient id="frame-gold-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fffbe8"/>
+      <stop offset="40%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#b87304"/>
+    </linearGradient>
+    <linearGradient id="badge-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe680"/>
+      <stop offset="50%" stop-color="#d48806"/>
+      <stop offset="100%" stop-color="#ffd700"/>
+    </linearGradient>
+
+    <!-- Clip path for the square avatar inside the frame -->
+    <clipPath id="avatar-clip-ashishW32">
+      <rect x="47" y="47" width="126" height="126" rx="4"/>
+    </clipPath>
+
+    <filter id="royal-shadow-ashishW32" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+
+    <style>
+      .supporter-name {
+        font: 700 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+        fill: #f0f6fc;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+      }
+      .role-pill-bg {
+        fill: #161b22;
+        stroke: #ffd700;
+        stroke-width: 1.2;
+      }
+      .role-pill-text {
+        font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+        fill: #ffd700;
+        letter-spacing: 0.5px;
+      }
+      .year-text {
+        font: 800 16px "Times New Roman", Georgia, serif;
+        fill: #ffdf7e;
+        letter-spacing: 1px;
+      }
+    </style>
+  </defs>
+
+  <!-- ==================== AVATAR (INSIDE FRAME) ==================== -->
+  <g filter="url(#royal-shadow-ashishW32)">
+    <rect x="47" y="47" width="126" height="126" rx="4" fill="#0d1117"/>
+    <image href="data:image/png;base64,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" x="47" y="47" width="126" height="126" clip-path="url(#avatar-clip-ashishW32)" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+
+  <!-- ==================== ROYAL GOLDEN FRAME ==================== -->
+  <g filter="url(#royal-shadow-ashishW32)">
+    <!-- Outer Main Gold Border with Chamfered Corners -->
+    <path d="M 54 40 L 166 40 L 180 54 L 180 166 L 166 180 L 54 180 L 40 166 L 40 54 Z"
+          fill="none" stroke="url(#frame-gold-main)" stroke-width="8" stroke-linejoin="miter"/>
+
+    <!-- Inner Dark Groove -->
+    <path d="M 52 42 L 168 42 L 178 52 L 178 168 L 168 178 L 52 178 L 42 168 L 42 52 Z"
+          fill="none" stroke="#000000" stroke-width="2.5" stroke-linejoin="miter"/>
+
+    <!-- Inner Gold Lip -->
+    <rect x="45" y="45" width="130" height="130" fill="none" stroke="url(#frame-gold-light)" stroke-width="2"/>
+
+    <!-- Top Angular Crest / Crown -->
+    <path d="M 110 32 L 88 18 L 102 18 L 110 24 L 118 24 L 126 18 L 140 18 L 118 32 Z" fill="url(#frame-gold-main)"/>
+    <path d="M 98 18 L 110 27 L 122 18 Z" fill="#0d1117"/>
+
+    <!-- Top Left Winged Blade -->
+    <path d="M 68 12 L 86 18 L 62 26 L 42 38 L 52 38 L 74 24 L 88 20 Z" fill="url(#frame-gold-light)"/>
+    <!-- Top Right Winged Blade (Mirrored) -->
+    <path d="M 160 12 L 142 18 L 166 26 L 186 38 L 176 38 L 154 24 L 140 20 Z" fill="url(#frame-gold-light)"/>
+
+    <!-- Detached Shard Accents Under Outer Crest Wings -->
+    <polygon points="56,36 68,30 64,36" fill="url(#frame-gold-main)"/>
+    <polygon points="172,36 160,30 164,36" fill="url(#frame-gold-main)"/>
+
+    <!-- Bottom Angular Notch -->
+    <path d="M 94 178 L 110 188 L 126 178 L 138 178 L 110 194 L 82 178 Z" fill="url(#frame-gold-main)"/>
+    <polygon points="98,179 110,186 122,179" fill="#0d1117"/>
+
+    <!-- Bottom-Left Badge: 2026 -->
+    <path d="M 28 144 L 68 144 L 72 148 L 72 184 L 68 188 L 28 188 L 24 184 L 24 148 Z"
+          fill="#000000" stroke="url(#badge-gold)" stroke-width="4" stroke-linejoin="miter"/>
+    
+    <rect x="29" y="149" width="38" height="34" fill="#080808" stroke="url(#frame-gold-light)" stroke-width="1.2"/>
+
+    <text x="48" y="172" text-anchor="middle" class="year-text">2026</text>
+  </g>
+
+  <!-- ==================== SUPPORTER USERNAME & ROLE ==================== -->
+  <g transform="translate(0, 204)">
+    <text x="110" y="14" text-anchor="middle" class="supporter-name">@ashishW32</text>
+
+    <rect x="35" y="24" width="150" height="24" rx="12" class="role-pill-bg"/>
+    <text x="110" y="40" text-anchor="middle" class="role-pill-text">Community Star</text>
+  </g>
+</svg>

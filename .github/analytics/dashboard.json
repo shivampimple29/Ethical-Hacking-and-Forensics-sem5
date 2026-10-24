@@ -1,0 +1,111 @@
+{
+  "repository": "shivampimple29/Ethical-Hacking-and-Forensics-sem5",
+  "defaultBranch": "main",
+  "updatedAtUTC": "2026-10-24T05:51:44.970726+00:00",
+  "updatedAtIST": "2026-10-24 11:21:44 IST",
+  "trafficStatus": "success",
+  "trafficMetrics": {
+    "availableDaysCount": 5,
+    "isWindowComplete": true,
+    "windowStartDate": "2026-10-18",
+    "windowEndDate": "2026-10-22",
+    "last5DaysRecords": [
+      {
+        "date": "2026-10-18",
+        "clones": 2,
+        "uniqueCloners": 2,
+        "views": 0,
+        "uniqueVisitors": 0,
+        "status": "Recorded"
+      },
+      {
+        "date": "2026-10-19",
+        "clones": 2,
+        "uniqueCloners": 2,
+        "views": 0,
+        "uniqueVisitors": 0,
+        "status": "Recorded"
+      },
+      {
+        "date": "2026-10-20",
+        "clones": 8,
+        "uniqueCloners": 7,
+        "views": 0,
+        "uniqueVisitors": 0,
+        "status": "Recorded"
+      },
+      {
+        "date": "2026-10-21",
+        "clones": 0,
+        "uniqueCloners": 0,
+        "views": 0,
+        "uniqueVisitors": 0,
+        "status": "Recorded"
+      },
+      {
+        "date": "2026-10-22",
+        "clones": 13,
+        "uniqueCloners": 8,
+        "views": 0,
+        "uniqueVisitors": 0,
+        "status": "Recorded"
+      }
+    ],
+    "last5DaysTotalClones": 25,
+    "last5DaysTotalViews": 0,
+    "last5DaysSumUniqueCloners": 19,
+    "last5DaysSumUniqueVisitors": 0,
+    "last5DaysAvgUniqueClonersPerDay": 3.8,
+    "last5DaysAvgUniqueVisitorsPerDay": 0.0,
+    "previous5DaysDates": [
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-16",
+      "2026-10-17"
+    ],
+    "previous5DaysTotalClones": 1,
+    "previous5DaysTotalViews": 3,
+    "cloneDifference": 24,
+    "viewDifference": -3,
+    "cloneGrowthPercent": 2400.0,
+    "viewGrowthPercent": -100.0,
+    "recordedCumulativeClones": 43,
+    "recordedCumulativeViews": 17,
+    "recordedCumulativeUniqueCloners": 30,
+    "recordedCumulativeUniqueVisitors": 4,
+    "collectionStartedAt": "2026-10-24T05:47:48.494150+00:00",
+    "lastSuccessfulUpdate": "2026-10-24T05:51:44.970726+00:00"
+  },
+  "forksCount": 2,
+  "supporters": [
+    {
+      "username": "TanishSawant-06",
+      "profileUrl": "https://github.com/TanishSawant-06",
+      "avatarUrl": "https://github.com/TanishSawant-06.png?size=96",
+      "role": "Community Star & Fork",
+      "year": "2026"
+    },
+    {
+      "username": "abhi220705",
+      "profileUrl": "https://github.com/abhi220705",
+      "avatarUrl": "https://github.com/abhi220705.png?size=96",
+      "role": "Community Fork",
+      "year": "2026"
+    },
+    {
+      "username": "AshishWaghmare12",
+      "profileUrl": "https://github.com/AshishWaghmare12",
+      "avatarUrl": "https://github.com/AshishWaghmare12.png?size=96",
+      "role": "Community Star",
+      "year": "2026"
+    },
+    {
+      "username": "ashishW32",
+      "profileUrl": "https://github.com/ashishW32",
+      "avatarUrl": "https://github.com/ashishW32.png?size=96",
+      "role": "Community Star",
+      "year": "2026"
+    }
+  ]
+}
