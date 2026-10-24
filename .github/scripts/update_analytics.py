@@ -1389,6 +1389,10 @@ def run_pipeline() -> int:
     merge_traffic_data(traffic_history, clones_payload, views_payload, now_utc_iso)
     atomic_write_json(traffic_history_file, traffic_history)
 
+    activity_history = safe_load_json(activity_history_file, initialize_activity_history)
+    activity_history["lastUpdated"] = now_utc_iso
+    atomic_write_json(activity_history_file, activity_history)
+
     traffic_metrics = compute_traffic_metrics(traffic_history)
 
     # 4. Fetch Verified Public Supporters for Hall of Appreciation
