@@ -40,6 +40,11 @@ Practical solutions, lab experiments, and reference implementations for Semester
         <img src=".github/analytics/supporters/ashishW32.svg" width="220" alt="ashishW32" />
       </a>
     </td>
+    <td align="center" style="border: none; padding: 12px 20px;">
+      <a href="https://github.com/radhaursekar12">
+        <img src=".github/analytics/supporters/radhaursekar12.svg" width="220" alt="radhaursekar12" />
+      </a>
+    </td>
   </tr>
 </table>
 <!-- REPOSITORY_ANALYTICS_END -->

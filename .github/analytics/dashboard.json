@@ -1,8 +1,8 @@
 {
   "repository": "shivampimple29/Ethical-Hacking-and-Forensics-sem5",
   "defaultBranch": "main",
-  "updatedAtUTC": "2026-10-24T06:08:28.049187+00:00",
-  "updatedAtIST": "2026-10-24 11:38:28 IST",
+  "updatedAtUTC": "2026-10-24T21:00:43.280988+00:00",
+  "updatedAtIST": "2026-10-25 02:30:43 IST",
   "trafficStatus": "token_required",
   "trafficMetrics": {
     "availableDaysCount": 5,
@@ -104,6 +104,13 @@
       "username": "ashishW32",
       "profileUrl": "https://github.com/ashishW32",
       "avatarUrl": "https://github.com/ashishW32.png?size=96",
+      "role": "Community Star",
+      "year": "2026"
+    },
+    {
+      "username": "radhaursekar12",
+      "profileUrl": "https://github.com/radhaursekar12",
+      "avatarUrl": "https://github.com/radhaursekar12.png?size=96",
       "role": "Community Star",
       "year": "2026"
     }
