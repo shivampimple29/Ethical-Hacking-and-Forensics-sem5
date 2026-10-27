@@ -55,6 +55,6 @@
 
   <!-- Central Clean Announcement Text -->
   <text x="410" y="31" text-anchor="middle" class="banner-text">
-    Star or fork this repository to join the wall of appreciation <tspan class="pipe-sep"> | </tspan> Updates every day at 12:00 AM IST
+    Star or fork this repository to join the wall of appreciation <tspan class="pipe-sep"> | </tspan> Updates every day at 12:00 AM UTC
   </text>
 </svg>

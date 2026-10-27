@@ -342,7 +342,7 @@ class TestAnalyticsDashboard(unittest.TestCase):
         self.assertTrue(banner_file.exists())
         b_content = banner_file.read_text(encoding="utf-8")
         self.assertIn("tracer-line", b_content)
-        self.assertIn("Updates every day at 12:00 AM IST", b_content)
+        self.assertIn("Updates every day at 12:00 AM UTC", b_content)
         self.assertIn("pipe-sep", b_content)
 
         assets_dir = self.test_path / "assets"
