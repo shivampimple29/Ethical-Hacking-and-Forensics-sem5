@@ -6,7 +6,8 @@ on:
       - main
     paths-ignore:
       - '.github/analytics/**'
-      - 'README.md'  schedule:
+      - 'README.md'
+  schedule:
     # Runs daily at 00:17 UTC (05:47 AM IST, off-peak day boundary run)
     - cron: '17 0 * * *'
     # Runs daily at 02:37 UTC (08:07 AM IST, off-peak settlement run)
