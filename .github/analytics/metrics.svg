@@ -22,11 +22,11 @@
   <line x1="164.0" y1="18" x2="164.0" y2="78" class="divider"/><line x1="328.0" y1="18" x2="328.0" y2="78" class="divider"/><line x1="492.0" y1="18" x2="492.0" y2="78" class="divider"/><line x1="656.0" y1="18" x2="656.0" y2="78" class="divider"/>
       <g>
       <text x="82.0" y="28" text-anchor="middle" class="metric-label">TOTAL CLONES</text>
-      <text x="82.0" y="59" text-anchor="middle" class="metric-val">179</text>
+      <text x="82.0" y="59" text-anchor="middle" class="metric-val">209</text>
       <text x="82.0" y="79" text-anchor="middle" class="metric-sub">Recorded lifetime</text>
     </g>    <g>
       <text x="246.0" y="28" text-anchor="middle" class="metric-label">UNIQUE CLONERS</text>
-      <text x="246.0" y="59" text-anchor="middle" class="metric-val">98</text>
+      <text x="246.0" y="59" text-anchor="middle" class="metric-val">112</text>
       <text x="246.0" y="79" text-anchor="middle" class="metric-sub">Recorded lifetime</text>
     </g>    <g>
       <text x="410.0" y="28" text-anchor="middle" class="metric-label">TOTAL FORKS</text>
