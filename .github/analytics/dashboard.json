@@ -1,23 +1,15 @@
 {
   "repository": "shivampimple29/Ethical-Hacking-and-Forensics-sem5",
   "defaultBranch": "main",
-  "updatedAtUTC": "2026-11-13T09:56:10.356192+00:00",
-  "updatedAtIST": "2026-11-13 15:26:10 IST",
+  "updatedAtUTC": "2026-11-14T06:23:55.752890+00:00",
+  "updatedAtIST": "2026-11-14 11:53:55 IST",
   "trafficStatus": "success",
   "trafficMetrics": {
     "availableDaysCount": 5,
     "isWindowComplete": true,
-    "windowStartDate": "2026-11-07",
-    "windowEndDate": "2026-11-11",
+    "windowStartDate": "2026-11-08",
+    "windowEndDate": "2026-11-12",
     "last5DaysRecords": [
-      {
-        "date": "2026-11-07",
-        "clones": 10,
-        "uniqueCloners": 6,
-        "views": 0,
-        "uniqueVisitors": 0,
-        "status": "Recorded"
-      },
       {
         "date": "2026-11-08",
         "clones": 31,
@@ -49,33 +41,41 @@
         "views": 0,
         "uniqueVisitors": 0,
         "status": "Recorded"
+      },
+      {
+        "date": "2026-11-12",
+        "clones": 26,
+        "uniqueCloners": 14,
+        "views": 4,
+        "uniqueVisitors": 1,
+        "status": "Recorded"
       }
     ],
-    "last5DaysTotalClones": 109,
-    "last5DaysTotalViews": 3,
-    "last5DaysSumUniqueCloners": 58,
-    "last5DaysSumUniqueVisitors": 1,
-    "last5DaysAvgUniqueClonersPerDay": 11.6,
-    "last5DaysAvgUniqueVisitorsPerDay": 0.2,
+    "last5DaysTotalClones": 125,
+    "last5DaysTotalViews": 7,
+    "last5DaysSumUniqueCloners": 66,
+    "last5DaysSumUniqueVisitors": 2,
+    "last5DaysAvgUniqueClonersPerDay": 13.2,
+    "last5DaysAvgUniqueVisitorsPerDay": 0.4,
     "previous5DaysDates": [
-      "2026-11-02",
       "2026-11-03",
       "2026-11-04",
       "2026-11-05",
-      "2026-11-06"
+      "2026-11-06",
+      "2026-11-07"
     ],
-    "previous5DaysTotalClones": 104,
+    "previous5DaysTotalClones": 89,
     "previous5DaysTotalViews": 41,
-    "cloneDifference": 5,
-    "viewDifference": -38,
-    "cloneGrowthPercent": 4.8,
-    "viewGrowthPercent": -92.7,
-    "recordedCumulativeClones": 520,
-    "recordedCumulativeViews": 119,
-    "recordedCumulativeUniqueCloners": 274,
-    "recordedCumulativeUniqueVisitors": 35,
+    "cloneDifference": 36,
+    "viewDifference": -34,
+    "cloneGrowthPercent": 40.4,
+    "viewGrowthPercent": -82.9,
+    "recordedCumulativeClones": 546,
+    "recordedCumulativeViews": 123,
+    "recordedCumulativeUniqueCloners": 288,
+    "recordedCumulativeUniqueVisitors": 36,
     "collectionStartedAt": "2026-10-24T05:47:48.494150+00:00",
-    "lastSuccessfulUpdate": "2026-11-13T09:56:10.356192+00:00"
+    "lastSuccessfulUpdate": "2026-11-14T06:23:55.752890+00:00"
   },
   "forksCount": 2,
   "supporters": [
